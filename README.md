@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-[](images/product-preview-card-component.jpg)
+[](https://github.com/Ebenezer-Raphael/Product-Preview-Card-Component/images/product-preview-card-component.jpg)
 
 ### Links
 

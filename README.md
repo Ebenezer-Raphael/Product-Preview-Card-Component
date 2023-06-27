@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Ebenezer-Raphael/Product-Preview-Card-Component/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Product Preview Card Component](https://ebenezer-raphael.github.io/Product-Preview-Card-Component/)
 
 ## My process
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Continued development
 
-I am yet to deploy the optimal layout depending on their device's screen size
+I am yet to deploy the optimal layout depending on their device's screen size.
 
 ### Useful resources
 

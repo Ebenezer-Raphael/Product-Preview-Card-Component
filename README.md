@@ -52,4 +52,4 @@ I am yet to deploy the optimal layout depending on their device's screen size.
 ## Author
 
 - Frontend Mentor - [@Ebenezer-Raphael](https://www.frontendmentor.io/profile/Ebenezer-Raphael)
-- Twitter - [@Ebenezer-Raphae1](https://www.twitter.com/EbenezerRaphae1)
+- Twitter - [@EbenezerRaph](https://www.twitter.com/EbenezerRaph)

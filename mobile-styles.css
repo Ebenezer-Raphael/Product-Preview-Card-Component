@@ -1,0 +1,89 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228,45%, 44%);
+}
+:root {
+  --cream: hsl(30, 38%, 92%);
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url('fonts/Fraunces.ttf');
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url('fonts/Montserrat.ttf');
+}
+body {
+  background-color: var(--cream);
+  font-family: "Montserrat";
+  color: hsl(228, 12%, 48%);
+}
+.main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 343px;
+  margin: 30px auto;
+}
+.preview_header {
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.preview {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 0px 10px 10px;
+  width: 293px;
+  margin: 0px;
+  padding: 25px;
+}
+img {
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px;
+}
+.product_name {
+  font-size: 30px;
+  font-family: "Fraunces";
+  color: hsl(212, 21%, 14%);
+  line-height: 32px;
+  margin: 10px 0px 15px;
+  font-weight: 70p;
+}
+.product_description {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.prices {
+  margin: 20px 0px 20px;
+}
+.new_price {
+  font-family: "Fraunces";
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  font-weight: 700;
+}
+.old_price {
+  text-decoration: line-through;
+  font-size: 13px;
+  margin-left: 15px;
+  vertical-align: 7px;
+  font-weight: 500;
+}
+button {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  border: 0px;
+  width: 293px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+}
+.Add_to_Cart {
+  margin-left: 10px;
+  vertical-align: 3px;
+}
+button:hover {
+  background-color: #1a4031;
+}

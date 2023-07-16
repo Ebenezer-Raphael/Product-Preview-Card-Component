@@ -1,4 +1,4 @@
-var width = window.screen.width;
+var width = window.width;
 
 var styles = document.getElementById('styles');
 var img = document.getElementById('img');

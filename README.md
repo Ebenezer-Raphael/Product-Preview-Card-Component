@@ -10,6 +10,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -42,13 +43,40 @@ Users should be able to:
 - CSS custom properties
 - JavaScript
 
+### What I learned
+
+I learnt how to deploy the optimal layout depending on their device's screen size.
+
+```js
+var wid = window.innerWidth;
+
+var styles = document.getElementById('styles');
+var img = document.getElementById('img');
+
+var stylesContainer = styles.parentNode;
+var imgContainer = img.parentNode;
+
+var stylesPosition = document.getElementById('styles-container');
+var imgPosition = document.getElementById('img-container');
+
+if (wid < 700) {    
+    stylesContainer.removeChild(styles);
+    imgContainer.removeChild(img);
+
+    stylesPosition.innerHTML = '<link rel="stylesheet" href="mobile-styles.css">';
+    imgPosition.innerHTML = '<img class="img" src="images/image-product-mobile.jpg" height="240" width="343" alt="image-product">';
+}
+
+```
+
 ### Continued development
 
-I am yet to deploy the optimal layout depending on their device's screen size.
+I want to be able to optimize my code. 
 
 ### Useful resources
 
 - [HTML & CSS: Design and Build Web Sites - Book by Jon Duckett](https://www.htmlandcssbook.com/) - This helped me to address minor issues in my code and I will use it going forward.
+- [HTML & CSS: Design and Build Web Sites - Book by Jon Duckett](https://javascriptbook.com/) - This helped me to address minor issues in my code and I will use it going forward.
 
 ## Author
 

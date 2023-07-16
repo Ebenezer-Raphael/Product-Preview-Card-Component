@@ -1,4 +1,4 @@
-var width = window.width;
+var width = window.innerWidth;
 
 var styles = document.getElementById('styles');
 var img = document.getElementById('img');

@@ -9,7 +9,7 @@ var imgContainer = img.parentNode;
 var stylesPosition = document.getElementById('styles-container');
 var imgPosition = document.getElementById('img-container');
 
-if (wid < 700) {    
+if (width < 700) {    
     stylesContainer.removeChild(styles);
     imgContainer.removeChild(img);
 

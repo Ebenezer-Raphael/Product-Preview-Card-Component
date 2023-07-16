@@ -48,7 +48,7 @@ Users should be able to:
 I learnt how to deploy the optimal layout depending on their device's screen size.
 
 ```js
-var width = window.screen.width;
+var width = window.innerWidth;
 
 var styles = document.getElementById('styles');
 var img = document.getElementById('img');

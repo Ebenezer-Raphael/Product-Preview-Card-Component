@@ -80,6 +80,6 @@ I want to be able to optimize my code.
 
 ## Author
 
-- GitHub - [@ebenezerraph](https://www.github.com/ebenezerraph){:target="_blank"}
+- GitHub - [@ebenezerraph](https://www.github.com/ebenezerraph)[:target="_blank"]
 - Frontend Mentor - [@ebenezerraph](https://www.frontendmentor.io/profile/ebenezerraph){:target="_blank"}
 - Twitter - [@EbenezerRaph](https://www.twitter.com/EbenezerRaph){:target="_blank"}

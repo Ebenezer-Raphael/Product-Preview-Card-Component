@@ -76,7 +76,6 @@ I want to be able to optimize my code.
 ### Useful resources
 
 - [HTML & CSS: Design and Build Web Sites - Book by Jon Duckett](https://www.htmlandcssbook.com/) - This helped me to address minor issues in my code and I will use it going forward.
-- [HTML & CSS: Design and Build Web Sites - Book by Jon Duckett](https://javascriptbook.com/) - This helped me to address minor issues in my code and I will use it going forward.
 
 ## Author
 

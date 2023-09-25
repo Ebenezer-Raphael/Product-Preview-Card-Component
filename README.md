@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/ebenezerraph/product-preview-card-component/)
-- Live Site URL: [Product Preview Card Component](https://ebenezerraph.github.io/product-preview-card-component/)
+- Solution URL: [GitHub](https://github.com/ebenezerraph/product-preview-card-component/){:target="_blank"}
+- Live Site URL: [Product Preview Card Component](https://ebenezerraph.github.io/product-preview-card-component/){:target="_blank"}
 
 ## My process
 
@@ -80,6 +80,6 @@ I want to be able to optimize my code.
 
 ## Author
 
-- GitHub - [@ebenezerraph](https://www.github.com/ebenezerraph)
-- Frontend Mentor - [@ebenezerraph](https://www.frontendmentor.io/profile/ebenezerraph)
-- Twitter - [@EbenezerRaph](https://www.twitter.com/EbenezerRaph)
+- GitHub - [@ebenezerraph](https://www.github.com/ebenezerraph){:target="_blank"}
+- Frontend Mentor - [@ebenezerraph](https://www.frontendmentor.io/profile/ebenezerraph){:target="_blank"}
+- Twitter - [@EbenezerRaph](https://www.twitter.com/EbenezerRaph){:target="_blank"}

@@ -13,6 +13,12 @@
 @font-face {
     font-family: "Montserrat";
     src: url('fonts/Montserrat.ttf');
+    color: hsl(228, 12%, 48%);
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
 }
 .main {
     color: hsl(228, 12%, 48%);
@@ -69,10 +75,6 @@
 img {
     float: left;
     border-radius: 10px 0px 0px 10px;
-}
-body {
-    background-color: hsl(30, 38%, 92%);
-    font-family: "Montserrat";
 }
 button {
     color: hsl(0, 0%, 100%);

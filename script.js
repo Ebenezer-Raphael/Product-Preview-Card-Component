@@ -1,4 +1,4 @@
-var width = window.innerWidth;
+/* var width = window.innerWidth;
 
 var styles = document.getElementById('styles');
 var img = document.getElementById('img');
@@ -15,4 +15,4 @@ if (width < 700) {
 
     stylesPosition.innerHTML = '<link rel="stylesheet" href="mobile-styles.css">';
     imgPosition.innerHTML = '<img class="img" src="images/image-product-mobile.jpg" height="240" width="343" alt="image-product">';
-}
+} */

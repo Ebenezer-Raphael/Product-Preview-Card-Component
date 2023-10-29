@@ -1,11 +1,3 @@
-@font-face {
-    font-family: "Fraunces";
-    src: url(fonts/Fraunces.ttf);
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url(fonts/Montserrat.ttf);
-}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -13,6 +5,14 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url(fonts/Fraunces.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat.ttf);
 }
 .main {
     color: hsl(228, 12%, 48%);

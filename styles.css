@@ -8,11 +8,11 @@
 }
 @font-face {
     font-family: "Fraunces";
-    src: url(fonts/Fraunces.ttf);
+    src: url('fonts/Fraunces.ttf');
 }
 @font-face {
     font-family: "Montserrat";
-    src: url(fonts/Montserrat.ttf);
+    src: url('fonts/Montserrat.ttf');
 }
 .main {
     color: hsl(228, 12%, 48%);

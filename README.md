@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/ebenezerraph/product-preview-card-component/)
-- Live Site URL: [Product Preview Card Component](https://ebenezerraph.github.io/product-preview-card-component/)
+- Live Site URL: [Produ Preview Card Component](https://ebenezerraph.github.io/product-preview-card-component/)
 
 ## My process
 
@@ -41,33 +41,10 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- JavaScript
 
 ### What I learned
 
-I learnt how to deploy the optimal layout depending on their device's screen size.
-
-```js
-var width = window.innerWidth;
-
-var styles = document.getElementById('styles');
-var img = document.getElementById('img');
-
-var stylesContainer = styles.parentNode;
-var imgContainer = img.parentNode;
-
-var stylesPosition = document.getElementById('styles-container');
-var imgPosition = document.getElementById('img-container');
-
-if (width < 700) {    
-    stylesContainer.removeChild(styles);
-    imgContainer.removeChild(img);
-
-    stylesPosition.innerHTML = '<link rel="stylesheet" href="mobile-styles.css">';
-    imgPosition.innerHTML = '<img class="img" src="images/image-product-mobile.jpg" height="240" width="343" alt="image-product">';
-}
-
-```
+I learnt how to make the design responsive
 
 ### Continued development
 

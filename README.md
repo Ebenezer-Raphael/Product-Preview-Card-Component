@@ -11,7 +11,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -44,11 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I learnt how to make the design responsive
-
-### Continued development
-
-I want to be able to optimize my code. 
+I was finally able to make the design responsive
 
 ### Useful resources
 

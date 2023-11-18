@@ -6,29 +6,6 @@
     font-family: "Montserrat";
     src: url(fonts/Montserrat.ttf);
 }
-@media screen and (max-width: 700px) {
-    main {
-        height: 600px;
-    }
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        width: 343px;
-    }
-    .product-preview {
-        height: 360px;
-        border-radius: 0px 0px 10px 10px;
-    }
-    .product-image {
-        border-radius: 10px 10px 0px 0px;
-    }
-    .product-name, .product-description {
-        margin: 15px 0px;
-    }
-    button {
-        margin: 15px 0px;
-    }
-}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -54,15 +31,35 @@ main {
     flex-direction: row;
     width: 600px;
 }
-
+@media screen and (max-width: 700px) {
+    main {
+        height: 600px;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+    }
+}
 .product-image {
     border-radius: 10px 0px 0px 10px;
+}
+@media screen and (max-width: 700px) {
+    .product-image {
+        border-radius: 10px 10px 0px 0px;
+    }
 }
 .product-preview {
     border-radius: 0px 10px 10px 0px;
     height: 450px;
     padding: 30px;
     box-sizing: border-box;
+}
+@media screen and (max-width: 700px) {
+    .product-preview {
+        height: 360px;
+        border-radius: 0px 0px 10px 10px;
+    }
 }
 .product-name, .new-price {
     font-family: "Fraunces";
@@ -107,6 +104,14 @@ button {
 .add-to-cart {
     margin: 5px;
     vertical-align: 3px;
+}
+@media screen and (max-width: 700px) {
+    .product-name, .product-description {
+        margin: 15px 0px;
+    }
+    button {
+        margin: 15px 0px;
+    }
 }
 button:hover {
     background-color: #18412f;

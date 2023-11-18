@@ -32,13 +32,13 @@ main {
     width: 600px;
 }
 @media screen and (max-width: 700px) {
-    main {
-        height: 600px;
-    }
     .flex-container {
         display: flex;
         flex-direction: column;
         width: 343px;
+    }
+    main {
+        height: 600px;
     }
 }
 .product-image {

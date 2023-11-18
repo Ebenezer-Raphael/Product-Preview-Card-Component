@@ -42,12 +42,28 @@ Users should be able to:
 
 ### What I learned
 
-I was able to make the design responsive, such that one can view the optimal layout depending on their device's screen size.
+I learned how to make the design responsive using Flexbox. I was able to display different images based on the device's screen.
+
+```HTML
+<picture>
+    <source srcset="images/image-product-mobile.jpg" media="(max-width: 700px)">
+    <source srcset="images/image-product-desktop.jpg">
+    <img class="product-image" src="images/image-product-desktop.jpg" alt="product-image">
+</picture>
+```
+```css
+@media screen and (max-width: 700px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+    }
+```
 
 ### Useful resources
 
-- [HTML & CSS: Design and Build Web Sites - Book by Jon Duckett](https://www.htmlandcssbook.com/) - This helped me to address minor issues in my code and I will use it going forward.
-- [W3Schools](https://www.w3schools.com/) - This is where I was able to learn how to make the web page reponsive.
+- [HTML & CSS: Design and Build Web Sites - Book by Jon Duckett](https://www.htmlandcssbook.com/) - This helped me address minor issues in my code. And I will continue using it.
+- [W3Schools](https://www.w3schools.com/) - This is where I learned how to make the web page responsive.
 
 ## Author
 

@@ -42,14 +42,15 @@ Users should be able to:
 
 ### What I learned
 
-I was finally able to make the design responsive
+I was able to make the design responsive, such that one can view the optimal layout depending on their device's screen size.
 
 ### Useful resources
 
 - [HTML & CSS: Design and Build Web Sites - Book by Jon Duckett](https://www.htmlandcssbook.com/) - This helped me to address minor issues in my code and I will use it going forward.
+- [W3Schools](https://www.w3schools.com/) - This is where I was able to learn how to make the web page reponsive.
 
 ## Author
 
 - GitHub - [@ebenezerraph](https://www.github.com/ebenezerraph)
 - Frontend Mentor - [@ebenezerraph](https://www.frontendmentor.io/profile/ebenezerraph)
-- Twitter - [@EbenezerRaph](https://www.twitter.com/EbenezerRaph)
+- Twitter - [@ebenezerraph](https://www.twitter.com/ebenezerraph)

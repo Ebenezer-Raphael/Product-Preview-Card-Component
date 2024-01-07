@@ -41,6 +41,17 @@ main {
         height: 600px;
     }
 }
+.mobile-image {
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .desktop-image {
+        display: none;
+    }
+    .mobile-image{
+        display: block;
+    }
+}
 .product-image {
     border-radius: 10px 0px 0px 10px;
 }

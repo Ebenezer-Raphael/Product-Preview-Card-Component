@@ -19,9 +19,14 @@ body {
     font-family: "Montserrat";
     font-weight: 500;
     color: hsl(228, 12%, 48%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 main {
-    margin: 10% auto 5px;
+    margin-bottom: 5px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     height: 450px;

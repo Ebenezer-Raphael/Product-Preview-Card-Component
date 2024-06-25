@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/product-preview-card-component.jpg)
+![]()
 
 ### Links
 
@@ -42,15 +42,9 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to make the design responsive using Flexbox. I was able to display different images based on the device's screen.
+I learned how to make the design responsive using Flexbox.
 
-```HTML
-<picture>
-    <source srcset="images/image-product-mobile.jpg" media="(max-width: 700px)">
-    <source srcset="images/image-product-desktop.jpg">
-    <img class="product-image" src="images/image-product-desktop.jpg" alt="product-image">
-</picture>
-```
+css:
 ```css
 @media screen and (max-width: 700px) {
     .flex-container {
@@ -58,6 +52,7 @@ I learned how to make the design responsive using Flexbox. I was able to display
         flex-direction: column;
         width: 343px;
     }
+}
 ```
 
 ### Useful resources
@@ -67,6 +62,5 @@ I learned how to make the design responsive using Flexbox. I was able to display
 
 ## Author
 
-- GitHub - [@ebenezerraph](https://www.github.com/ebenezerraph)
 - Frontend Mentor - [@ebenezerraph](https://www.frontendmentor.io/profile/ebenezerraph)
-- X - [@ebenezerraph](https://www.twitter.com/ebenezerraph)
+- X - [@ebenezerraph](https://www.x.com/ebenezerraph)

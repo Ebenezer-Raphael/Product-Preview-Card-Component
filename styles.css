@@ -8,6 +8,10 @@
     src: url(fonts/Montserrat.ttf);
 }
 
+* {
+    font-family: "Montserrat";
+}
+
 body {
     background-color: hsl(30, 38%, 92%);
     font-family: "Montserrat";
@@ -51,6 +55,7 @@ main {
 }
 
 .product-name {
+    width: 80%;
     color: hsl(212, 21%, 14%);
 }
 
@@ -85,7 +90,8 @@ main {
 
 .old-price {
     text-decoration: line-through;
-    margin: 0px 10px;
+    margin-left: 20px;
+    font-size: 12px;
 }
 
 button {
@@ -113,7 +119,8 @@ button:active {
 }
 
 .add-to-cart {
-    margin: 5px;
+    margin-left: 10px;
+    letter-spacing: 0.05em;
 }
 
 .attribution {
@@ -128,7 +135,7 @@ button:active {
 
 @media screen and (max-width: 700px) {
     main {
-        height: 600px;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         width: 343px;
@@ -147,8 +154,12 @@ button:active {
     }
 
     .product-preview {
-        height: 360px;
+        height: fit-content;
         border-radius: 0px 0px 10px 10px;
+    }
+
+    .product-name {
+        width: 100%;
     }
 
     .product-name,
@@ -157,6 +168,6 @@ button:active {
     }
 
     button {
-        margin: 15px 0px;
+        margin: 15px 0 0 0;
     }
 }
